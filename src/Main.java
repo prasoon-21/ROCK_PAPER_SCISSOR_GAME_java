@@ -10,12 +10,12 @@ public class Main{
         String name = xy.nextLine();
         System.out.println("Welcome there!! "+ name);
         System.out.println("Lets Begin!! ");
-        String[] option = {"Rock", "Paper", "Scissor"};
+        String[] option = {"Prasun", "Paper", "Scissor"};
         String playAgain = " ";
         do {
-            System.out.println("Enter your move (ROCK, PAPER, SCISSOR)");
+            System.out.println("Enter your move (Prasun, PAPER, SCISSOR)");
             String userMove = xy.next();
-            if(!userMove.equalsIgnoreCase("Rock") && !userMove.equalsIgnoreCase("Paper") && !userMove.equalsIgnoreCase("Scissor")) {
+            if(!userMove.equalsIgnoreCase("Prasun") && !userMove.equalsIgnoreCase("Paper") && !userMove.equalsIgnoreCase("Scissor")) {
                 System.out.println("INVALID CHOICE MADE !! Please enter the valid option (ROCK, PAPER,SCISSOR)");
                 continue;
             }
