@@ -10,13 +10,13 @@ public class Main{
         String name = xy.nextLine();
         System.out.println("Welcome there!! "+ name);
         System.out.println("Lets Begin!! ");
-        String[] option = {"Stone", "Paper", "Scissor"};
+        String[] option = {"Anuraj", "Paper", "Scissor"};
         String playAgain = " ";
         do {
-            System.out.println("Enter your move (Stone, PAPER, SCISSOR)");
+            System.out.println("Enter your move (Anuraj, PAPER, SCISSOR)");
             String userMove = xy.next();
-            if(!userMove.equalsIgnoreCase("Stone") && !userMove.equalsIgnoreCase("Paper") && !userMove.equalsIgnoreCase("Scissor")) {
-                System.out.println("INVALID CHOICE MADE !! Please enter the valid option (Stone, PAPER,SCISSOR)");
+            if(!userMove.equalsIgnoreCase("Anuraj") && !userMove.equalsIgnoreCase("Paper") && !userMove.equalsIgnoreCase("Scissor")) {
+                System.out.println("INVALID CHOICE MADE !! Please enter the valid option (Anuraj, PAPER,SCISSOR)");
                 continue;
             }
             int index = xyz.nextInt(3);
